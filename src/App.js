@@ -164,7 +164,7 @@ const App = () => (
       <Switch>
         <Route
           exact
-          path="/"
+          path=""
           component={() => <Home statesList={statesList} />}
         />
         <Route exact path="/about" component={About} />
